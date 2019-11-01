@@ -3,7 +3,7 @@
     stages {
         stage('Test') {
             steps {
-                echo 'Testing'
+                echo 'Testing2'
                 sh 'go test'
             }
         }

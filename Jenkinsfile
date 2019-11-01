@@ -4,6 +4,7 @@
         stage('Test') {
             steps {
                 echo 'Testing'
+                go test
             }
         }
     }

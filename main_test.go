@@ -10,3 +10,9 @@ func TestSum(t *testing.T) {
 		t.Fatal("sum(2, 3) != 5")
 	}
 }
+
+func TestSub(t *testing.T){
+	if Sub(3,2) != 1 {
+		t.Fatal("sub(3,2) != 1")
+	} 
+}

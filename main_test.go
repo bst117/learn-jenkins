@@ -11,8 +11,8 @@ func TestSum(t *testing.T) {
 	}
 }
 
-func TestSub(t *testing.T){
-	if Sub(3,2) != 1 {
-		t.Fatal("sub(3,2) != 1")
+func TestSubb(t *testing.T){
+	if Subb(2,3) != 1 {
+		t.Fatal("subb(2,3) != 1")
 	} 
 }

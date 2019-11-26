@@ -1,8 +1,9 @@
 package math
 
 import "testing"
-import "fmt"
 
 func TestSum(t *testing.T) {
-  fmt.Println("sum")
+	if Sum(2, 3) != 5 {
+		t.Fatal("sum(2, 3) != 5")
+	}
 }
